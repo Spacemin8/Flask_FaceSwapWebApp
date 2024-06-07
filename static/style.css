@@ -1,0 +1,40 @@
+body{
+	text-align: center;
+	padding: 20px;
+	color: rgb(255, 3, 3);
+}
+
+.imggroup{
+	background-color: rgba(16, 16, 16, 0.623);
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
+	height: 445px;
+	color: white;
+}
+
+.rimg, .limg{
+	background-color: rgb(32, 32, 32);
+	padding: 10px;
+  gap:20px;
+	
+}
+
+.inimg{
+	/* height: 240px;
+	width: 400px; */
+	height: 240px;
+	width: 300px;
+	border: 2px solid wheat;
+	margin-bottom: 20px;
+	object-fit: contain;
+}
+
+.upbtn{
+	margin-top: -5px;
+}
+
+.tit{
+	margin-bottom: 40px;
+}
